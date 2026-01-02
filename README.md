@@ -1,5 +1,7 @@
+Tệp MEMZ.txt nằm trong thư mục "Toàn bộ dữ liệu của MEMZ trojan" kia là toàn bộ dữ liệu của MEMZ trojan.
 ⚠️ MEMZ Trojan - Educational Analysis
 MEMZ là một loại mã độc (Trojan) cực kỳ nổi tiếng, ban đầu được tạo ra bởi Leurak cho series "Malware Watch" trên YouTube. Nó được thiết kế để phô diễn các khả năng phá hoại hệ thống Windows theo cách hài hước nhưng cực kỳ nguy hiểm.
+Link quét của virustotal: https://www.virustotal.com/gui/file/5e2cd213ff47b7657abd9167c38ffd8b53c13261fe22adddea92b5a2d9e320ad
 
 CẢNH BÁO: Đây là một mã độc thực sự. Không bao giờ chạy tệp tin thực thi của MEMZ trên máy tính thật. Chỉ nên thử nghiệm trong môi trường máy ảo (Virtual Machine) hoàn toàn cách ly.
 
