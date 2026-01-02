@@ -1,6 +1,6 @@
 ## 🔬 Phân tích kỹ thuật mã nguồn (Batch Dropper)
 
-Dữ liệu bạn đang có là một **Dropper** (Bộ nạp). Thay vì chứa file trực tiếp, nó tái tạo mã độc bằng cách:
+Dữ liệu MEMZ đang có là một **Dropper** (Bộ nạp). Thay vì chứa file trực tiếp, nó tái tạo mã độc bằng cách:
 
 1. **Mã hóa:** Chuyển đổi tệp thực thi `MEMZ.exe` thành chuỗi Base64 để vượt qua tường lửa cơ bản.
 2. **Tái tạo:** Sử dụng Windows Script Host (`cscript`) và JavaScript để dựng lại tệp `.exe` từ chuỗi văn bản.
