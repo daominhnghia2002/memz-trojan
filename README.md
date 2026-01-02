@@ -1,3 +1,15 @@
+## 🔬 Phân tích kỹ thuật mã nguồn (Batch Dropper)
+
+Dữ liệu bạn đang có là một **Dropper** (Bộ nạp). Thay vì chứa file trực tiếp, nó tái tạo mã độc bằng cách:
+
+1. **Mã hóa:** Chuyển đổi tệp thực thi `MEMZ.exe` thành chuỗi Base64 để vượt qua tường lửa cơ bản.
+2. **Tái tạo:** Sử dụng Windows Script Host (`cscript`) và JavaScript để dựng lại tệp `.exe` từ chuỗi văn bản.
+3. **Triển khai:** Tự động giải nén vào `%appdata%` và kích hoạt tiến trình ngầm.
+
+### 🚩 Dấu hiệu nhận biết trong code:
+* Các lệnh `echo` tạo tệp `x` cực dài (Dữ liệu virus).
+* Việc sử dụng `ActiveXObject("ADODB.Stream")` để thao tác với dữ liệu nhị phân.
+* Lệnh `start` gọi tệp tin từ thư mục ẩn ứng dụng.
 Tệp MEMZ.txt nằm trong thư mục "Toàn bộ dữ liệu của MEMZ trojan" kia là toàn bộ dữ liệu của MEMZ trojan.
 ⚠️ MEMZ Trojan - Educational Analysis
 MEMZ là một loại mã độc (Trojan) cực kỳ nổi tiếng, ban đầu được tạo ra bởi Leurak cho series "Malware Watch" trên YouTube. Nó được thiết kế để phô diễn các khả năng phá hoại hệ thống Windows theo cách hài hước nhưng cực kỳ nguy hiểm.
